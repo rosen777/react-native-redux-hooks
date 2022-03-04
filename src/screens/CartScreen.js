@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, Pressable, FlatList, Image, StyleSheet} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import {useSelector, useDispatch} from 'react-redux';
-import {REMOVE_FROM_CART} from '../redux/cartItemReducer';
+import {REMOVE_FROM_CART} from '../redux/cartItemsReducer';
 import Separator from '../components/Separator';
 
 Icon.loadFont();

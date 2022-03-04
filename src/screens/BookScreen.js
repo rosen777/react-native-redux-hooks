@@ -1,10 +1,11 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {View, Text, FlatList, Image, Pressable, StyleSheet} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import {books} from '../utils/Data';
 import Separator from '../components/Separator';
-import {ADD_TO_CART} from '../redux/cartItemsReducer';
 import {useDispatch} from 'react-redux';
+
+import {ADD_TO_CART} from '../redux/cartItemsReducer';
 
 Icon.loadFont();
 
